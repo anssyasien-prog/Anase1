@@ -1,0 +1,39 @@
+table{
+    border: 3px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    border-spacing: 2px 3px;
+    width: out;
+}
+.a{
+    background:linear-gradient( orange, yellow);
+
+}
+.b{
+    background:linear-gradient( blue, yellow);
+
+}
+
+th{
+    background:linear-gradient( orange, yellow);
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+td{
+    background:linear-gradient(to right, orange, yellow);
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+td:hover{
+    background:linear-gradient(to right, rgb(129, 255, 127), rgb(255, 129, 228));
+    color: blue;
+
+}
+th:hover{
+    background:linear-gradient(to right, rgb(255, 127, 197), rgb(228, 255, 129));
+    color: rgb(81, 255, 0);
+
+}
